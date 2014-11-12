@@ -1,0 +1,145 @@
+/*
+Name:     		Dancehall Airhorn CSS
+Description:    Basic theme
+Author:         Geoffrey W Byers | Great Job
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+
+body {
+	background: #222222;
+	color:#f8f8f8;
+	padding:0;
+	margin: auto;
+	font-family: 'Open Sans';
+	max-width: 100%;
+}
+h1 {	
+	font-family: 'Open Sans', sans-serif;
+	font-size: 5em;
+	font-weight: 600;
+	text-align: center;
+	margin: 0;
+	padding-top: 5em;
+	color: #F8F8F8;
+}
+h2 {	
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2em;
+	font-weight: 300;
+	text-align: center;
+	margin: 0;
+	padding-top: 2em;
+	color: #F8F8F8;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	text-align: center;
+	margin: 0;
+	padding-top: 2em;
+	color: #F8F8F8;
+}
+
+a:link, a:visited {
+	color:			#e7841d;
+	font-weight:	bold;
+}
+a:hover {
+}
+
+#header {
+	padding:			20px;
+	background-color:	#222;
+	text-align: center;
+}
+	#header h1 {
+		font-weight:	normal;
+		font-size:		24px;
+		margin:			0;
+		padding:		0;
+	}
+
+	#header p {
+		margin:		0;
+		padding:	0;
+
+		font-size:	14px;
+		color:		#777;
+	}
+
+	#header:after{
+		content:	"";
+		position:	absolute;
+	}
+
+
+.content {
+	width:		100%;
+	position:		absolute;
+	top:			50%;
+	left:			50%;
+	margin-top:		-210px;
+	margin-left:	-490px;
+	color:			#777;
+	border:				1px solid #555;
+	background-color:	#ccc;
+}
+
+#loader {
+	display: none;
+}
+.loader {
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	text-align:center;
+	margin-top: 250px;
+	background: url('loader.gif') no-repeat;
+	background-position: 50% 50%;
+	display: block !important;
+}
+#error {
+	display:none;
+	width: 100%;
+	text-align: left;
+	padding: 10px;
+}
+
+#mobile {
+    display:none;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+}
+
+#content {
+		   width: 100%;
+		   padding-top: 100px;
+	   }
+	   .fastclick {
+			/*float: none;
+			background-repeat: no-repeat;
+			background-position: 0 0px;
+			background-color: #222222;
+		    background-size: 320px 300px;
+			border: 0px solid #666;
+			width: 50%;
+			height: 200px;
+			margin: auto;*/
+			background-image: url("http://www.greatjob.is/creating/dancehallairhorn/assets/images/airhorn.svg");
+    		background-position: center center;
+    		background-repeat: no-repeat;
+    		background-size: 192px auto;
+    		height: 192px;
+    		margin: 22px auto 31px;
+    		width: 192px;
+	    }
+	   .fastclick:hover {
+		   cursor: pointer;
+	   }
+	   .fastclick.active, .fastclick.active:hover {
+		   /*background-position: 0 -200px;*/
+		   cursor: auto;
+	   }
