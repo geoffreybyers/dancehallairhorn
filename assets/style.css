@@ -131,10 +131,10 @@ a:hover {
 			background-image: url("http://www.geoffreybyers.com/dancehallairhorn/assets/images/airhorn.svg");
     		background-position: center center;
     		background-repeat: no-repeat;
-    		background-size: 192px auto;
-    		height: 192px;
+    		background-size: 300px auto;
+    		height: 300px;
     		margin: 22px auto 31px;
-    		width: 192px;
+    		width: 300px;
 	    }
 	   .fastclick:hover {
 		   cursor: pointer;
